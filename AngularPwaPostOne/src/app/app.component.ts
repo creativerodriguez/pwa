@@ -20,8 +20,8 @@ export class AppComponent {
       'path': '/'
     },
     {
-      'title': 'My Account (Part 2)',
-      'path': '/auth'
+      'title': 'My Account (part 2)',
+      'path': '/auth' //<-- not yet used
     }
   ];
   private _mobileQueryListener: () => void;
