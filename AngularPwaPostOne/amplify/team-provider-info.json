@@ -1,0 +1,26 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "angularpwapostone-20190214000217-authRole",
+            "UnauthRoleArn": "arn:aws:iam::342035656167:role/angularpwapostone-20190214000217-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::342035656167:role/angularpwapostone-20190214000217-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "angularpwapostone-20190214000217-deployment",
+            "UnauthRoleName": "angularpwapostone-20190214000217-unauthRole",
+            "StackName": "angularpwapostone-20190214000217",
+            "StackId": "arn:aws:cloudformation:us-west-2:342035656167:stack/angularpwapostone-20190214000217/b40629a0-3015-11e9-baf6-0a163670bd44"
+        }
+    },
+    "pro": {
+        "awscloudformation": {
+            "AuthRoleName": "angularpwapostone-20190214004357-authRole",
+            "UnauthRoleArn": "arn:aws:iam::342035656167:role/angularpwapostone-20190214004357-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::342035656167:role/angularpwapostone-20190214004357-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "angularpwapostone-20190214004357-deployment",
+            "UnauthRoleName": "angularpwapostone-20190214004357-unauthRole",
+            "StackName": "angularpwapostone-20190214004357",
+            "StackId": "arn:aws:cloudformation:us-west-2:342035656167:stack/angularpwapostone-20190214004357/861bf460-301b-11e9-9cde-06b225b8684c"
+        }
+    }
+}
