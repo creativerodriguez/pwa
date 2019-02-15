@@ -1,3 +1,37 @@
 <p>
-  home works!
+  Home Page Demo
 </p>
+<mat-checkbox>Check me!</mat-checkbox>
+<br/>
+<br/>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+<br/>
+<br/>
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Input">
+  </mat-form-field>
+  <br/>
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+  <br/>
+  <mat-form-field>
+    <mat-select placeholder="Select">
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<br/>
+<br/>
+<mat-form-field class="example-full-width">
+  <input matInput placeholder="Favorite food" value="Sushi">
+</mat-form-field>
+<br/>
+<mat-form-field class="example-full-width">
+  <textarea matInput placeholder="Leave a comment"></textarea>
+</mat-form-field>
