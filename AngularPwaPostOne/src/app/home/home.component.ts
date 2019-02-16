@@ -21,6 +21,8 @@ export class HomeComponent implements OnInit {
   autoControl = new FormControl();
   options: string[] = ['One', 'Two', 'Three'];
 
+  panelOpenState = false;
+  
   constructor() { }
 
   ngOnInit() {
