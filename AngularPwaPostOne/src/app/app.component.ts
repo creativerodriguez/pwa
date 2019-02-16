@@ -14,7 +14,7 @@ import { IosInstallComponent } from './ios-install/ios-install.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Material PWA';
+  title = 'Creative Rodriguez PWA Demo';
   mobileQuery: MediaQueryList;
   nav = [
     {
